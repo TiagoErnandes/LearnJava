@@ -4,12 +4,12 @@ package Enum;
     CPF {
         @Override
         public String geraNumeroTeste() {
-            return null;
+            return GeraCpfCnpj.cpf();
         }
     },CNPJ {
          @Override
          public String geraNumeroTeste() {
-             return null;
+             return GeraCpfCnpj.cnpj();
          }
      };
 

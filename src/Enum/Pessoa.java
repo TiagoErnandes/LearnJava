@@ -5,7 +5,6 @@ public class Pessoa {
     private String numeroDocumento;
 
     public Pessoa() {
-
     }
 
     public Pessoa(TipoDocumento tipoDocumento, String numeroDocumento) {
