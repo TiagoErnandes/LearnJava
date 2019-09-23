@@ -8,6 +8,9 @@ public class Exemplo {
         Integer num2 = 4;
         int num4 =  num2;
         System.out.println(num4);
+        num4++;
+        System.out.println(num4);
+
 
     }
 }
